@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "photograph-project/docs",
+            "outputPath": "dist/photograph-project",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -39,13 +39,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500mb",
-                  "maximumError": "500mb"
+                  "maximumWarning": "50mb",
+                  "maximumError": "1mb"
                 },
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "250kb",
-                  "maximumError": "400kb"
+                  "maximumError": "450kb"
                 }
               ],
               "outputHashing": "all"
